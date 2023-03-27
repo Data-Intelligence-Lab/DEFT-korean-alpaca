@@ -1,5 +1,6 @@
 # DEFT: Korean Alpaca Model (Kogpt-Version)
 <p align="center"> <img src="./docs/icon.png" width="500" height="500"/> </p>
+
 카카오브레인에서 공개한 한국어 GPT인 [KoGPT](https://github.com/kakaobrain/kogpt) 모델을 기반으로 Stanford Alpaca의 학습 방법 + LoRA 기법과 [KoAlpaca](https://github.com/Beomi/KoAlpaca)의 데이터셋으로 학습한 한국어 Alpaca모델 DEFT입니다. 
 
 hugginface의 peft를 사용해 학습하고자 했으나, 아직 Embedding Layer단의 LoRA 기법 적용이 불가능하여 부득이하게 따로 구현한 방식을 사용하였습니다.
@@ -98,8 +99,8 @@ In a preliminary study, we also find our 52K generated data to be much more dive
 We plot the below figure (in the style of Figure 2 in the [self-instruct paper](https://arxiv.org/abs/2212.10560) to demonstrate the diversity of our data.
 The inner circle of the plot represents the root verb of the instructions, and the outer circle represents the direct objects.
 
-[//]: # (![parse_analysis]&#40;assert/parse_analysis.png | width=100&#41;)
-[<img src="assets/parse_analysis.png" width="750" />](./assets/parse_analysis.png)
+[//]: # (![parse_analysis]&#40;https://github.com/tatsu-lab/stanford_alpaca/blob/main/assets/parse_analysis.png | width=100&#41;)
+[<img src="https://github.com/tatsu-lab/stanford_alpaca/blob/main/assets/parse_analysis.png" width="750" />](https://github.com/tatsu-lab/stanford_alpaca/blob/main/assets/parse_analysis.png)
 
 ## Fine-tuning
 We fine-tune our models using standard Hugging Face training code with the following hyperparameters:
