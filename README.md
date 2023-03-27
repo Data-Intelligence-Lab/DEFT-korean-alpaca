@@ -4,7 +4,7 @@
 
 hugginface의 peft를 사용해 학습하고자 했으나, 아직 Embedding Layer단의 LoRA 기법 적용이 불가능하여 부득이하게 따로 구현한 방식을 사용하였습니다.
 
-따라서 모델을 Huggingface🤗[https://huggingface.co/dilab-cau/deft-korean-alpaca] 에서 다운 받으신 후 본 github의 test-deft-chat.ipynb[https://github.com/Data-Intelligence-Lab/DEFT-korean-alpaca/blob/main/test-deft-chat.ipynb] 를 참고하여 사용하시기 바랍니다.
+따라서 모델을 [Huggingface🤗](https://huggingface.co/dilab-cau/deft-korean-alpaca) 에서 다운 받으신 후 본 github의 [test-deft-chat.ipynb](https://github.com/Data-Intelligence-Lab/DEFT-korean-alpaca/blob/main/test-deft-chat.ipynb) 를 참고하여 사용하시기 바랍니다.
 
 현재 모델은 한국어 전용이며 Multi-Turn이 불가능하고, 공격적, 차별적인 언어와 같은 사회적으로 통념되지 않은 표현에 대한 처리가 되어있지 않습니다.
 
