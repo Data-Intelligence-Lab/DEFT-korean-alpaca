@@ -1,5 +1,5 @@
 # DEFT: Korean Alpaca Model (Kogpt-Version)
-<img src="./docs/icon.png" width="500" height="500"/>
+<p align="center"> <img src="./docs/icon.png" width="500" height="500"/> </p>
 카카오브레인에서 공개한 한국어 GPT인 [KoGPT](https://github.com/kakaobrain/kogpt) 모델을 기반으로 Stanford Alpaca의 학습 방법 + LoRA 기법과 [KoAlpaca](https://github.com/Beomi/KoAlpaca)의 데이터셋으로 학습한 한국어 Alpaca모델 DEFT입니다. 
 
 hugginface의 peft를 사용해 학습하고자 했으나, 아직 Embedding Layer단의 LoRA 기법 적용이 불가능하여 부득이하게 따로 구현한 방식을 사용하였습니다.
