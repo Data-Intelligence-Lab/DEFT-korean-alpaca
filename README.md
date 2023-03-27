@@ -13,6 +13,13 @@ hugginface의 peft를 사용해 학습하고자 했으나, 아직 Embedding Laye
 ### Hardware
 16GB 이상의 VRAM을 가진 GPU
 
+## License
+The `pretrained weights` of KakaoBrain `KoGPT` are licensed under [CC-BY-NC-ND 4.0 License](https://creativecommons.org/licenses/by-nc-nd/4.0/) License.
+본 Github의 소스코드(source code)는 [Apache 2.0](LICENSE.apache-2.0) 라이선스 하에 공개되어 있습니다.
+카카오브레인 `KoGPT`의 `사전학습된 가중치(pretrained weights)`는 [CC-BY-NC-ND 4.0 라이선스](https://creativecommons.org/licenses/by-nc-nd/4.0/) 라이선스 하에 공개되어 있습니다.   
+모델 및 코드, 사전학습된 가중치를 사용할 경우 라이선스 내용을 준수해 주십시오. 
+라이선스 전문은 [Apache 2.0](LICENSE.apache-2.0), [LICENSE.cc-by-nc-nd-4.0](LICENSE.cc-by-nc-nd-4.0) 파일에서 확인하실 수 있습니다.
+
 
 ## Stanford Alpaca: An Instruction-following LLaMA Model
 
