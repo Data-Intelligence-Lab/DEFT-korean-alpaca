@@ -2,11 +2,12 @@
 <p align="center"> <img src="./docs/icon.png" width="500" height="500"/> </p>
 카카오브레인에서 공개한 한국어 GPT인 [KoGPT](https://github.com/kakaobrain/kogpt) 모델을 기반으로 Stanford Alpaca의 학습 방법 + LoRA 기법과 [KoAlpaca](https://github.com/Beomi/KoAlpaca)의 데이터셋으로 학습한 한국어 Alpaca모델 DEFT입니다. 
 
-#ALIVE (2023.04.04 ~ )
-##현재 DEFT는 카카오톡 채널로 서비스 되고 있습니다.
+# ALIVE (2023.04.04 ~ )
+
+## 현재 DEFT는 카카오톡 채널로 서비스 되고 있습니다.
 ### 채널: http://pf.kakao.com/_UwCxcxj/
 ### 채팅 바로가기: http://pf.kakao.com/_UwCxcxj/chat
-![qrcode_350](https://user-images.githubusercontent.com/31382462/229700845-68761273-3f5c-4968-b728-f7c866e80b74.png)
+<p align="center"> <img src="https://user-images.githubusercontent.com/31382462/229700845-68761273-3f5c-4968-b728-f7c866e80b74.png"> </p>
 
 
 hugginface의 peft를 사용해 학습하고자 했으나, 아직 Embedding Layer단의 LoRA 기법 적용이 불가능하여 부득이하게 따로 구현한 방식을 사용하였습니다.
