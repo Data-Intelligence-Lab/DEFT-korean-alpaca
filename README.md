@@ -1,6 +1,7 @@
 # DEFT: Korean Alpaca Model (Kogpt-Version)
 <p align="center"> <img src="./docs/icon.png" width="500" height="500"/> </p>
-카카오브레인에서 공개한 한국어 GPT인 [KoGPT](https://github.com/kakaobrain/kogpt) 모델을 기반으로 Stanford Alpaca의 학습 방법 + LoRA 기법과 [KoAlpaca](https://github.com/Beomi/KoAlpaca)의 데이터셋으로 학습한 한국어 Alpaca모델 DEFT입니다. 
+
+## 카카오브레인에서 공개한 한국어 GPT인 [KoGPT](https://github.com/kakaobrain/kogpt) 모델을 기반으로 Stanford Alpaca의 학습 방법 + LoRA 기법과 [KoAlpaca](https://github.com/Beomi/KoAlpaca)의 데이터셋으로 학습한 한국어 Alpaca모델 DEFT입니다. 
 
 # ALIVE (2023.04.04 ~ )
 
