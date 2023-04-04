@@ -8,8 +8,10 @@
 ## 현재 DEFT는 카카오톡 채널로 서비스 되고 있습니다.
 ### 채널: http://pf.kakao.com/_UwCxcxj/
 ### 채팅 바로가기: http://pf.kakao.com/_UwCxcxj/chat
-<p align="center"> <img src="https://user-images.githubusercontent.com/31382462/229700845-68761273-3f5c-4968-b728-f7c866e80b74.png"> </p>
 
+<div class="background: white;">
+<p align="center"> <img src="https://user-images.githubusercontent.com/31382462/229700845-68761273-3f5c-4968-b728-f7c866e80b74.png"> </p>
+</div>
 
 hugginface의 peft를 사용해 학습하고자 했으나, 아직 Embedding Layer단의 LoRA 기법 적용이 불가능하여 부득이하게 따로 구현한 방식을 사용하였습니다.
 
