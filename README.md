@@ -3,7 +3,7 @@
 
 ## 카카오브레인에서 공개한 한국어 GPT인 [KoGPT](https://github.com/kakaobrain/kogpt) 모델을 기반으로 Stanford Alpaca의 학습 방법 + LoRA 기법과 [KoAlpaca](https://github.com/Beomi/KoAlpaca)의 데이터셋으로 학습한 한국어 Alpaca모델 DEFT입니다. 
 
-# ALIVE (2023.04.04 ~ )
+# ALIVE (2023.04.04 ~ END)
 
 ## 현재 DEFT는 카카오톡 채널로 서비스 되고 있습니다.
 ### 채널: http://pf.kakao.com/_UwCxcxj/
